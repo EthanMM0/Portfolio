@@ -2,10 +2,10 @@ export const personalInfo = {
   name: "Ethan Micciola",
   title: "Software Engineering Technology Student",
   tagline: "Cybersecurity & Full-Stack Development",
-  email: "email@example.com", // Replace with your actual email
+  email: "ethan.m.micciola@gmail.com", // Replace with your actual email
   github: "https://github.com/EthanMM0",
-  linkedin: "https://linkedin.com/in/your-profile", // Replace with your LinkedIn URL
-  resume: "/resume.pdf", // Replace with your resume path
+  linkedin: "https://www.linkedin.com/in/ethanmicciola",
+  resume: "/Ethan Micciola - Resume.pdf",
   location: "Ontario, Canada",
   heroIntro: "Analytical Software Engineering Technology student focused on cybersecurity and full-stack development, with strong proficiency in Python and C#. Built end-to-end projects including a stock analysis & prediction desktop app (Tkinter, yfinance, scikit-learn) and an AI financial budgeting web platform using Python/React, MongoDB, Plaid, Google Auth, and AWS Elastic Beanstalk. Comfortable in Agile environments and grounded in security fundamentals including SIEM workflows, Linux, and the NIST risk framework.",
   aboutText: `I'm a Software Engineering Technology student with a passion for building secure, scalable applications. My journey combines the analytical mindset of cybersecurity with the creative problem-solving of full-stack development.
@@ -271,7 +271,7 @@ export const socialLinks = {
   },
   linkedin: {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/your-profile", // Replace with your LinkedIn URL
+    url: "https://www.linkedin.com/in/ethanmicciola/",
     icon: "Linkedin"
   }
 };

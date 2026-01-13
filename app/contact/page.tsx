@@ -103,7 +103,6 @@ export default function ContactPage() {
                   >
                     {personalInfo.email}
                   </a>
-                  <p className="text-xs text-gray-500 mt-1">(Replace with your email)</p>
                 </div>
 
                 <div className="pt-6 border-t border-cyan-500/20">
@@ -122,7 +121,7 @@ export default function ContactPage() {
 
                 <div className="pt-6 border-t border-cyan-500/20">
                   <p className="text-gray-400 text-sm">
-                    I typically respond within 24-48 hours. Looking forward to connecting!
+                    Looking forward to connecting!
                   </p>
                 </div>
               </div>
