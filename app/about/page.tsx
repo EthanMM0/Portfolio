@@ -9,6 +9,9 @@ import { Badge } from '@/components/Badge';
 import { CTAButton } from '@/components/CTAButton';
 
 export default function AboutPage() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+  const resumeHref = `${basePath}${personalInfo.resume}`;
+
   return (
     <div className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
@@ -22,10 +25,7 @@ export default function AboutPage() {
             <span className="text-sm text-cyan-400 font-medium">Astronaut Profile</span>
           </div>
 
-          <SectionHeader
-            title="About Me"
-            subtitle="Get to know the person behind the code"
-          />
+          <SectionHeader title="About Me" subtitle="Get to know the person behind the code" />
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-12 mb-16">
@@ -36,7 +36,6 @@ export default function AboutPage() {
             className="md:col-span-1"
           >
             <div className="bg-gradient-to-br from-gray-900/90 to-gray-800/90 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-8 sticky top-24">
-
               <h3 className="text-2xl font-bold text-white text-center mb-2">
                 {personalInfo.name}
               </h3>
@@ -71,8 +70,8 @@ export default function AboutPage() {
                 </a>
 
                 <a
-                  href={personalInfo.resume}
-                  download
+                  href={resumeHref}
+                  download="Ethan Micciola - Resume.pdf"
                   className="flex items-center gap-3 w-full px-4 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg text-white hover:shadow-lg hover:shadow-cyan-500/50 transition-all"
                 >
                   <Download className="w-5 h-5" />
