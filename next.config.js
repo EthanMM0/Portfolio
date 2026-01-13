@@ -27,7 +27,11 @@ const nextConfig = {
   // Make all routes/assets work under the repo subpath on GitHub Pages
   basePath,
   assetPrefix: basePath,
-
+  
+  env: {
+  NEXT_PUBLIC_BASE_PATH: basePath,
+  },
+  
   eslint: {
     ignoreDuringBuilds: true,
   },
