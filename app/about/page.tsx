@@ -71,7 +71,7 @@ export default function AboutPage() {
 
                 <a
                   href={resumeHref}
-                  download="Ethan Micciola - Resume.pdf"
+                  download="Ethan Micciola Resume.pdf"
                   className="flex items-center gap-3 w-full px-4 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg text-white hover:shadow-lg hover:shadow-cyan-500/50 transition-all"
                 >
                   <Download className="w-5 h-5" />
