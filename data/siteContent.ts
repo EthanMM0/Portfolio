@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Ethan Micciola",
   title: "Software Engineering Technology Student",
   tagline: "Cybersecurity & Full-Stack Development",
-  email: "ethan.m.micciola@gmail.com", // Replace with your actual email
+  email: "ethan.m.micciola@gmail.com",
   github: "https://github.com/EthanMM0",
   linkedin: "https://www.linkedin.com/in/ethanmicciola",
   resume: "/Ethan Micciola - Resume.pdf",

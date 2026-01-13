@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import { Github, Linkedin, Download, MapPin, User } from 'lucide-react';
 import { personalInfo, timeline, skills } from '@/data/siteContent';
 import { SectionHeader } from '@/components/SectionHeader';
@@ -37,16 +36,6 @@ export default function AboutPage() {
             className="md:col-span-1"
           >
             <div className="bg-gradient-to-br from-gray-900/90 to-gray-800/90 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-8 sticky top-24">
-              <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-to-br from-cyan-500/20 to-blue-600/20 border-4 border-cyan-500/30">
-                <div className="w-full h-full flex items-center justify-center">
-                  <User className="w-24 h-24 text-cyan-400/50" />
-                </div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <p className="text-xs text-center text-cyan-400 px-4">
-                    Replace with<br />your headshot
-                  </p>
-                </div>
-              </div>
 
               <h3 className="text-2xl font-bold text-white text-center mb-2">
                 {personalInfo.name}
