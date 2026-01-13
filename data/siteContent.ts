@@ -234,24 +234,24 @@ export const services = [
 
 export const timeline = [
   {
-    year: "2024-Present",
+    year: "2023-Present",
     title: "Software Engineering Technology",
     description: "Focused on cybersecurity and full-stack development, building real-world projects and deepening technical skills."
   },
   {
-    year: "2024",
+    year: "2025",
     title: "Budget Mind AI",
     description: "Developed AI-powered financial platform with React, Python, MongoDB, and AWS deployment."
+  },
+    {
+    year: "2024",
+    title: "Developer Tools",
+    description: "Created Python Package Checker and Java Environment Manager to improve developer workflows."
   },
   {
     year: "2023",
     title: "Stock Prediction App",
     description: "Built machine learning desktop application for stock analysis and price forecasting."
-  },
-  {
-    year: "2023",
-    title: "Developer Tools",
-    description: "Created Python Package Checker and Java Environment Manager to improve developer workflows."
   }
 ];
 
